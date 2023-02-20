@@ -380,44 +380,23 @@
                                 
                                 <h2 class="text-center mb-lg-3 mb-2">Book an appointment</h2>
                             
-                                <form role="form" method="POST" action=  action="https://formspree.io/f/xoqzddvj"                           >
-                                    <div class="row">
-
-                                        <div class="col-lg-6 col-12">
-                                            <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required>
-                                        </div>
-
-                                        <div class="col-lg-6 col-12">
-                                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required>
-                                        </div>
-
-                                        <div class="col-lg-6 col-12">
-                                            <input type="telephone" name="phone" id="phone" class="form-control" placeholder="Phone: 123-456-7890">
-                                        </div>
-
-                                        <div class="col-lg-6 col-12">
-                                            <input type="date" name="date" id="date" value="" class="form-control">
-                                            
-                                        </div>
-
-                                        <div class="col-12">
-                                            <textarea class="form-control" rows="5" id="message" name="message" placeholder="Additional Message"></textarea>
-                                        </div>
-
-                                        <div class="col-lg-3 col-md-4 col-6 mx-auto">
-                                            <button type="submit" class="form-control" id="submit-button">Book Now</button>
-                                        </div>
-                                    </div>
-                                </form>
-                                
                                 <!-- modify this form HTML and place wherever you want your form -->
                                     <form id="my-form" action="https://formspree.io/f/xoqzddvj" method="POST">
-                                    <label>Email:</label>
-                                    <input type="email" name="email" />
-                                    <label>Message:</label>
-                                    <input type="text" name="message" />
-                                    <button id="my-form-button">Submit</button>
-                                    <p id="my-form-status"></p>
+                                    
+                                    <div class="col-lg-6 col-12">
+                                        <label>Email:</label>
+                                        <input type="email" name="email" />
+                                    </div>
+                                    <div>
+                                        <label>Message:</label>
+                                        <input type="text" name="message" />
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-4 col-6 mx-auto">
+                                        <button id="my-form-button">Submit</button>
+                                        <p id="my-form-status"></p>
+                                    </div>
+
                                     </form>
                                     <!-- Place this script at the end of the body tag -->
                              <script>
